@@ -1,0 +1,12 @@
+<div class="circle-container">
+    @for (circle of circles; track circle) {
+    <div  class="circle"
+         [style.left.px]="circle.xPosition"
+         [style.top.px]="circle.yPosition"
+         [style.width.px]="circle.circleSize"
+         [style.height.px]="circle.circleSize"
+         [style.background-color]="circle.color"
+         (click)="onClick()">
+    </div>
+}
+  </div>
