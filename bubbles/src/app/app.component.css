@@ -1,4 +1,12 @@
 .test {
-    color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
+.test-text {
+    font-size: 5rem;
+    margin-top: 40vh;
+    font-family: sans-serif;
+    z-index: 999;
+}
